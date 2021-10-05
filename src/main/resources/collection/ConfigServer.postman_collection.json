@@ -11,13 +11,43 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/ms-folha-pagamento/default",
+					"raw": "{{url}}/ms-folha-pagamento/:profile",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"ms-folha-pagamento",
-						"default"
+						":profile"
+					],
+					"variable": [
+						{
+							"key": "profile",
+							"value": "default"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CONFIG MS-PESSOA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/ms-pessoa/:profile",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"ms-pessoa",
+						":profile"
+					],
+					"variable": [
+						{
+							"key": "profile",
+							"value": "default"
+						}
 					]
 				}
 			},
