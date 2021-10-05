@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "4e2a00e8-8090-4624-b3b8-55197c30e6b9",
+		"name": "ConfigServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET CONFIG MS-FOLHA-PAGAMENTO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/ms-folha-pagamento/default",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"ms-folha-pagamento",
+						"default"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
