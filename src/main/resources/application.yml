@@ -7,3 +7,6 @@ spring:
       server:
         git:
           uri: https://github.com/rospiel/study-configs
+          username: "${GITHUB_USER}"
+          password: "${GITHUB_PASS}"
+
